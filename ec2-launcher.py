@@ -4,7 +4,7 @@ import boto.ec2
 
 SG_NAME = 'Scrapyd'
 SG_DESCRIPTION = 'Scrapy daemon'
-USER_DATA_FILE = 'install-scrapyd.sh'
+USER_DATA_FILE = 'user_data-scrapyd.sh'
 AMI='ami-da0d9eb3' # Find others AMI on http://cloud-images.ubuntu.com/locator/ec2
 KEY_NAME='main'
 INSTANCE_TYPE='t1.micro'
