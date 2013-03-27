@@ -3,6 +3,8 @@ ec2-scrapyd
 
 User data script to deploy scrapyd on Amazon EC2
 
+Based on this blog post http://pabloseminario.com/2013/03/26/running-scrapy-on-amazon-ec2/
+
 Usage
 -----
 
